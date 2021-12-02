@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CSS for beginners</title>
+<link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+<h1>Introduction to CSS</h1>
+<h2>What is CSS?</h2>
+<p>Like HTML, CSS is not a programming language. 
+    It's not a markup language either. CSS stands for <span class="bold"> Cascading Style Sheet </span> and it is a style sheet language. 
+    CSS is what you use to selectively style HTML elements.</p>
+
+<h2>Anatomy of a CSS ruleset</h2>
+<img src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics/css-declaration-small.png" 
+alt="Image describing anatomy of CSS ruleset"
+width="500px"/>
+<p>The main parts of the ruleset are explained below:</p>
+<ol>
+    <li>
+        <span class="bold"> Selector:</span> This is the HTML element name at the start of the ruleset. It defines the element(s) to be styled.
+To style a different element, you change the selector. There are different types of selctors hghlighted below:
+<ul>
+    <li>
+        <span class="bold"> Element selector:</span> selects all HTML elements of the specified type.
+    </li>
+    <li>
+        <span class="bold"> ID selector:</span> selects the element on the page with the specified ID.
+    </li>
+    <li>
+        <span class="bold"> Class selector:</span> selects the element(s) on the page with the specified class.
+    </li>
+    <li>
+        <span class="bold"> Attribute selector:</span> selects the element(s) on the page with the specified attribute.
+    </li>
+    <li>
+        <span class="bold"> Pseudo-class selector:</span> selects the specified element(s), but only when in the specified state.
+    </li>
+</ul>
+    </li>
+    <li>
+        <span class="bold"> Declaration:</span> It specifies which of the element's properties you want to style. It is a single rule for example color: red;.
+    </li>
+    <li>
+        <span class="bold"> Properties: </span>These are ways in which you can style an HTML element.
+    </li>
+    <li>
+        <span class="bold"> Property value: </span> This chooses one out of many possible appearances for a given property.
+    </li>
+</ol>
+
+<div>
+<h2 id="note-heading">
+    Important rules to note
+</h2>
+<ul id="note-list">
+    <li>
+        You need to apply CSS to your HTML document. Otherwise, the styling won't change the appearance of the HTML.
+    </li>
+    <li>
+        Ruleset must be wrapped in curly braces. ({})
+    </li> 
+    <li>
+        Semicolon (;) must be used to separate each declaration from the next.
+    </li>
+</ul>
+</div>
+<p>
+    CSS can be used to style HTML elements used to build a webpage. CSS is used to set the style, size, color, position of elements on a page.
+<br/>
+<br/>
+This lesson is based on <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics">CSS basics</a> from mozilla. If you wish to learn more, you should totally check out the page.
+</p>
+</body>
+</html>

@@ -1,0 +1,39 @@
+body{
+    background-color: honeydew;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    padding-left: 50px; padding-right: 50px;
+    padding-top: 20px; padding-bottom: 20px;
+}
+h1 {
+    color: rgb(9, 51, 35);
+    }
+h2 {
+color: rgb(12, 75, 52);
+}
+.bold{
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: none;
+}
+
+#note-heading{
+    color: rgb(18, 110, 77);
+    text-align: center;
+}
+#note-list{
+    color: rgb(18, 110, 77);
+    align: center;
+}
+div{
+    border-style: solid;
+border-color: rgb(9, 51, 35);
+border-radius: 10px;
+background-color: rgb(255, 255, 255);
+align-self: center;
+width: auto;
+padding: 10px;
+color: rgb(18, 110, 77);
+}
